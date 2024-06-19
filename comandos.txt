@@ -1,0 +1,20 @@
+ao iniciar um projeto
+
+1 - git init -> cria um repositório
+2 - git status -> verifica o status do repositório, aponta caso esteja desatualizado
+3 - git add . -> adiciona um novo arquivo criado no repositório
+4 - git commit -a -m "alteração feita" -> comita e envia para o repositório
+5 - git branch -m "nome" -> cria uma branch para voce realizar seus códigos, geralmente a primeira a ser criada é a main
+
+para um projeto existente
+
+1 - git push / git push origin "nome branch" -> para enviar as alterações feitas após o commit
+2 - git pull / git pull origin "nome branch" -> para trazer alterações externas para o seu código local
+3 - git clone "link" -> para clonar um repositório já existente
+4 - git rm "nome_arquivo" -> para remover o arquivo do repositório
+5 - git log -> para ver o log de alterações realizadas por voce
+6 - git mv "nome_arquivo novo_nome" / git mv "nome_arquivo pasta/nome_arquivo" -> para mover ou renomear um arquivo ja existente
+7 - git checkout "nome_arquivo" -> para voltar seu arquivo ao seu estado inicial
+8 - .gitignore -> este arquivo serve para ignorar um arquivo de seu repositório, usado geralmente par o .env ou algo interno
+    dentro deste arquivo, deve ser colocado o nome do arquivo que voce deseja manter "invisivel" e após isso, criar o arquivo no repo.
+9 - git reset --hard "main" -> volta o seu repositório local para o seu ultimo push realizado
