@@ -18,3 +18,28 @@ para um projeto existente
 8 - .gitignore -> este arquivo serve para ignorar um arquivo de seu repositório, usado geralmente par o .env ou algo interno
     dentro deste arquivo, deve ser colocado o nome do arquivo que voce deseja manter "invisivel" e após isso, criar o arquivo no repo.
 9 - git reset --hard "main" -> volta o seu repositório local para o seu ultimo push realizado
+
+
+Branches
+- Nunca trabalhar na branch main
+
+-main (ou master): É a branch principal onde o código em produção reside. Esta é a versão estável do seu projeto, que deve estar pronta para ser lançada a qualquer momento.
+
+- develop (ou developer): É a branch de desenvolvimento onde a integração contínua acontece. Esta branch contém as funcionalidades mais recentes que ainda estão sendo testadas e validadas. Os desenvolvedores fazem merge das suas branches de feature nesta branch após a revisão do código.
+
+- feature branches: São branches criadas a partir da branch develop para desenvolvimento de novas funcionalidades, correções de bugs ou qualquer outra tarefa. Essas branches são temporárias e devem ser deletadas após o merge.
+
+1 - git branch -> para visualizar todas as branchs do projeto
+2 - git branch "nome" -> para criar uma nova branch
+3 - git branch --delete "nome_branch" -> serve para deletar uma branch (geralmente é utilizado quando o branch foi criado errado ou fora do padrao do projeto)
+4 - git checkout "nome_branch" -> para alterar a branch, tomar cuidado no git status para nao cometer erro.
+5 - git checkout -b "nome_branch_nova" -> cria e muda para a branch.
+6 - git merge "nome_branch", para isso voce tem que estar na branch em que voce deseja unir
+7 - git stash -> usado caso voce code algo que voce deseja desfazer, ele é desfeito porém é possível fazer a recuperação após.
+8 - git stash list -> recebe todas stashs criadas
+9 - git stash apply "numero dela" -> para recuperar a stash
+10 - git stash clear -> para remover todas as stashs
+11 - git stash drop "numero dela" -> para remover a stash selecionada
+12 - git tag -a "nome" -m "msg" -> tag é diferente do stash, serve como um checkpoint de uma branch
+13 - git tag -> para ver todas as tags criadas
+14 - git checkout "nome_tag" para avançar ou retroceder as tags.
