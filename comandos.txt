@@ -43,3 +43,15 @@ Branches
 12 - git tag -a "nome" -m "msg" -> tag é diferente do stash, serve como um checkpoint de uma branch
 13 - git tag -> para ver todas as tags criadas
 14 - git checkout "nome_tag" para avançar ou retroceder as tags.
+15 - git fetch -a -> para voce ter acesso a todas as branchs de outros devs que estão no repositório
+16 - 
+
+*IMPORTANTE*
+1 - Quando voce volta para o projeto, e há atualizações no repo a ser feita, voce deve dar:
+2 - git branch
+3 - git checkout main
+4 - git pull
+5 - git checkout -b "nome_branch_nova"
+6 - git branch
+
+aaaaa
