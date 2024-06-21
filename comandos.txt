@@ -44,7 +44,10 @@ Branches
 13 - git tag -> para ver todas as tags criadas
 14 - git checkout "nome_tag" para avançar ou retroceder as tags.
 15 - git fetch -a -> para voce ter acesso a todas as branchs de outros devs que estão no repositório
-16 - 
+16 - git shortlog -> para ver um log resumido do projeto, quem comitou, quantos commits, etc
+17 - git clean -f -> vai limpar arquivos que nao estao sendo trackeados, ou seja, todos que voce nao utilizou o git add .
+18 - git gc -> serve para limpar os arquivos que nao estao sendo utilizados, deve ser feito na maquina dos devs
+19 - git fsck -> verifica uma possivel corrupção de arquivos.
 
 *IMPORTANTE*
 1 - Quando voce volta para o projeto, e há atualizações no repo a ser feita, voce deve dar:
@@ -53,5 +56,3 @@ Branches
 4 - git pull
 5 - git checkout -b "nome_branch_nova"
 6 - git branch
-
-aaaaa
