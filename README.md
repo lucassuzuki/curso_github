@@ -28,3 +28,9 @@ Para criar uma lista ordenada com sublistas, seguimos o exemplo abaixo:
     1. subtopico ordenado 1
     2. subtopico ordenado 2
 
+## Imagens em Markdown
+
+Para inserir uma imagem no readme, devemos seguir a seguinte sintaxe: ![Texto imagem](link imagem);
+A imagem pode estar no proprio repo, ou externo via link
+
+![Logo Github](img/github-logo.webp)
