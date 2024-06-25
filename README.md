@@ -34,3 +34,9 @@ Para inserir uma imagem no readme, devemos seguir a seguinte sintaxe: ![Texto im
 A imagem pode estar no proprio repo, ou externo via link
 
 ![Logo Github](img/github-logo.webp)
+
+## Links
+
+Para inserir link no readme, devemos seguir a seguinte sintaxe: [Texto do link](link .)
+
+Para baixar o git, [Clique aqui](https://git-scm.com/downloads)
