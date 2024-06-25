@@ -56,7 +56,7 @@ Para inserir o codigo fonte, devemos seguir a sintaxe: ` ``"nome linguagem" "cod
 
 ## Listas de Tarefas
 
-Para fazer lista de tarefas, devemos seguir a seguinte sintaxe ``` - [ ] Para tarefas nao concluidas // - [ X ] Para tarefas concluidas ```
+Para fazer lista de tarefas, devemos seguir a seguinte sintaxe ``` - [ ] Para tarefas nao concluidas // - [X] Para tarefas concluidas ```
 
 ### A fazer
 
@@ -64,4 +64,4 @@ Para fazer lista de tarefas, devemos seguir a seguinte sintaxe ``` - [ ] Para ta
 
 ### Feito
 
-- [ X ] Tela de Cadastro
+- [X] Tela de Cadastro
