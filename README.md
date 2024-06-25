@@ -48,7 +48,7 @@ Podemos tambem, colocar o link em uma imagem, fazendo com a seguinte sintaxe: ``
 
 ## Código fonte
 
-Para inserir o codigo fonte, devemos seguir a sintaxe: ``` ```"nome linguagem" "codigo" ``` ``` **Somente no GITHUB**
+Para inserir o codigo fonte, devemos seguir a sintaxe: ``` `` `"nome linguagem" "codigo" `` ` ``` **Somente no GITHUB**
 
 ```python
     print("Hello World")
@@ -61,7 +61,11 @@ Para fazer lista de tarefas, devemos seguir a seguinte sintaxe ``` - [ ] Para ta
 ### A fazer
 
 - [ ] Tela de login
+- [ ] Tela de perfil
+- [ ] Tela de politicas
 
 ### Feito
 
 - [X] Tela de Cadastro
+- [X] Tela de editar produto
+- [X] Tela de produtos

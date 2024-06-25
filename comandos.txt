@@ -48,6 +48,7 @@ Branches
 17 - git clean -f -> vai limpar arquivos que nao estao sendo trackeados, ou seja, todos que voce nao utilizou o git add .
 18 - git gc -> serve para limpar os arquivos que nao estao sendo utilizados, deve ser feito na maquina dos devs
 19 - git fsck -> verifica uma possivel corrupção de arquivos.
+20 - git reflog -> vai mapear todos os seus passos no repositório, até mesmo mudança de branch, o tempo para expiração é de 30 dias.
 
 *IMPORTANTE*
 1 - Quando voce volta para o projeto, e há atualizações no repo a ser feita, voce deve dar:
