@@ -43,4 +43,5 @@ Para baixar o git, [Clique aqui](https://git-scm.com/downloads)
 
 Podemos tambem, colocar o link em uma imagem, fazendo com a seguinte sintaxe: [![Texto imagem](link imagem)](link .)
 
-[![Foto Profile](img/foto-profile.jpg)](https://github.com/lucassuzuki/curso_github)
+
+[![Foto](./img/github-logo.webp)](https://github.com/lucassuzuki/curso_github)
