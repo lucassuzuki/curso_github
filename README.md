@@ -40,3 +40,7 @@ A imagem pode estar no proprio repo, ou externo via link
 Para inserir link no readme, devemos seguir a seguinte sintaxe: [Texto do link](link .)
 
 Para baixar o git, [Clique aqui](https://git-scm.com/downloads)
+
+Podemos tambem, colocar o link em uma imagem, fazendo com a seguinte sintaxe: [![Texto imagem](link imagem)](link .)
+
+[![Foto Profile](img/foto-profile.jpg)](https://github.com/lucassuzuki/curso_github)
